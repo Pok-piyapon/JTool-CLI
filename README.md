@@ -36,7 +36,7 @@
 | :------- | :--------- |
 | 🤖 AI | **DeepSeek API** (Primary), **OpenAI API** (Fallback) |
 | 📊 Diagram Rendering | **Mermaid.js** (Rendered in-browser with JavaScript) |
-| 📝 Documentation | **HTML + Bootstrap 5** (Primary), **docxjs** (Optional) |
+| 📝 Documentation | **HTML + Bootstrap 5** (Primary) or Latex, **docxjs** (Optional) |
 | 🔧 Java Parser | **JavaParser** |
 | 💻 CLI Framework | **Picocli** |
 | 📦 Build Tool | **Maven** |
