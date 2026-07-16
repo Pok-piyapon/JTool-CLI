@@ -49,20 +49,20 @@
 - 🔄 Automatic AI provider failover (DeepSeek → OpenAI)
 - 📊 Interactive Mermaid diagram rendering
 
-📦 จำนวน Modules ใน JTOOL CLI
+## 📦 จำนวน Modules ใน JTOOL CLI
 มีทั้งหมด 9 Modules แบ่งเป็น 2 กลุ่ม:
 
-🧩 6 Core Modules (ทำงานหลัก)
-#	Module	หน้าที่
-1	jtool-cli	รับคำสั่งจากผู้ใช้ (Picocli)
-2	jtool-parser	อ่านและแปลงโค้ด Java เป็น AST (JavaParser)
-3	jtool-ai	เรียก AI วิเคราะห์โค้ด (DeepSeek API)
-4	jtool-diagram	สร้าง Diagram ด้วย Mermaid syntax
-5	jtool-docs	สร้างเอกสาร HTML 3 ระดับ
-6	jtool-report	สร้างรายงาน Code Review
-⚙️ 3 Support Modules (ตัวช่วย)
-#	Module	หน้าที่
-7	jtool-config	จัดการตั้งค่าและ API keys
-8	jtool-cache	เก็บผลลัพธ์ซ้ำ ลดค่าใช้จ่าย AI
-9	jtool-export	บันทึกไฟล์เอกสาร/รายงาน
+#🧩 6 Core Modules (ทำงานหลัก)
+	Module	หน้าที่
+ - jtool-cli	รับคำสั่งจากผู้ใช้ (Picocli)
+ - jtool-parser	อ่านและแปลงโค้ด Java เป็น AST (JavaParser)
+ - jtool-ai	เรียก AI วิเคราะห์โค้ด (DeepSeek API)
+ - jtool-diagram	สร้าง Diagram ด้วย Mermaid syntax
+ - jtool-docs	สร้างเอกสาร HTML 3 ระดับ
+ - jtool-report	สร้างรายงาน Code Review
+#⚙️ 3 Support Modules (ตัวช่วย)
+	Module	หน้าที่
+ - jtool-config	จัดการตั้งค่าและ API keys
+ - jtool-cache	เก็บผลลัพธ์ซ้ำ ลดค่าใช้จ่าย AI
+ - jtool-export	บันทึกไฟล์เอกสาร/รายงาน
 
