@@ -30,16 +30,22 @@
    git clone [https://github.com/your-organization/jtool-cli.git](https://github.com/your-organization/jtool-cli.git)
    cd jtool-cli
 
-🤖 AI: DeepSeek API (หลัก) + OpenAI (สำรอง)
+## 🛠️ Tech Stack
 
-📊 Diagram: Mermaid (render ใน browser ด้วย JS)
-  
-📝 เอกสาร: HTML + Bootstrap CSS (แทน LaTeX)
+| Category | Technology |
+| :------- | :--------- |
+| 🤖 AI | **DeepSeek API** (Primary), **OpenAI API** (Fallback) |
+| 📊 Diagram Rendering | **Mermaid.js** (Rendered in-browser with JavaScript) |
+| 📝 Documentation | **HTML + Bootstrap 5** (Primary), **docxjs** (Optional) |
+| 🔧 Java Parser | **JavaParser** |
+| 💻 CLI Framework | **Picocli** |
+| 📦 Build Tool | **Maven** |
+| 🧪 Testing | **JUnit 5** |
 
-🔧 Parser: JavaParser
+## ✨ Optional Features
 
-💻 CLI: Picocli
+- 🤝 Collaborative development over a local network using the host's local IP
+- 📄 Export documentation as HTML or DOCX
+- 🔄 Automatic AI provider failover (DeepSeek → OpenAI)
+- 📊 Interactive Mermaid diagram rendering
 
-📦 Build: Maven
-
-🌐 ไม่ต้องใช้ n8n: รันบนเครื่องได้เลย
