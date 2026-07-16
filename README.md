@@ -60,6 +60,7 @@
  - jtool-diagram	สร้าง Diagram ด้วย Mermaid syntax
  - jtool-docs	สร้างเอกสาร HTML 3 ระดับ
  - jtool-report	สร้างรายงาน Code Review
+
 #⚙️ 3 Support Modules (ตัวช่วย)
 	Module	หน้าที่
  - jtool-config	จัดการตั้งค่าและ API keys
