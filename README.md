@@ -31,9 +31,15 @@
    cd jtool-cli
 
 🤖 AI: DeepSeek API (หลัก) + OpenAI (สำรอง)
-  📊 Diagram: Mermaid (render ใน browser ด้วย JS)
-  📝 เอกสาร: HTML + Bootstrap CSS (แทน LaTeX)
-  🔧 Parser: JavaParser
-  💻 CLI: Picocli
-  📦 Build: Maven
-  🌐 ไม่ต้องใช้ n8n: รันบนเครื่องได้เลย
+
+📊 Diagram: Mermaid (render ใน browser ด้วย JS)
+  
+📝 เอกสาร: HTML + Bootstrap CSS (แทน LaTeX)
+
+🔧 Parser: JavaParser
+
+💻 CLI: Picocli
+
+📦 Build: Maven
+
+🌐 ไม่ต้องใช้ n8n: รันบนเครื่องได้เลย
